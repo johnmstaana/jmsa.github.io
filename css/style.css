@@ -1,0 +1,482 @@
+h1 {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+	color:#FFBB00;
+	font-size: 4em;
+
+}
+h2 {
+	font-family: 'Raleway', sans-serif;
+	color:#FFBB00;
+}
+h3, h4, h5, h6 {
+	font-family: 'Raleway', sans-serif;
+	color:white;
+	font-weight: 300;
+}
+p{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	font-size:1.40em;
+
+}
+body{
+	background-color: #1b1f25;
+}
+/*####################-NavBar Top-####################*/
+.navbar-default{
+	background-color:transparent;
+	border:none;
+	margin-top:15px;
+	margin-bottom: 30px;
+}
+.navbar-default .navbar-nav >li>a {
+	font-family: 	'Raleway', sans-serif;
+	font-size: 1.50em;
+	color:#ffbb00;
+}
+
+.navbar-default .navbar-nav>.active>a{
+	color:white;
+	background-color: #9f575c;
+	border-radius: 5px;
+}
+,
+.navbar-default .navbar-nav>.active>a:hover{
+	color: white;
+}
+ul.nav a:hover { color: white !important; }
+/*####################-Home Sections-####################*/
+.index-nav{
+	text-align: center;
+}
+.index-nav .fa{
+	font-size: 12vmin;
+
+	padding: 15px;
+	margin:10px;
+}
+.profile-ico{
+	color:#e74c3c;
+}
+.mail-ico{
+	color:#ffbb00;
+}
+.work-ico{
+	color:#5DBCD2;
+}
+/*####################-About Section 1-####################*/
+
+
+.curve {
+	width:210px;
+	height: auto;
+	float: left;
+	margin-right:2rem;
+	border-radius: 50%;
+	shape-outside:circle();
+}
+.about-text p{
+	font-size:1.40em;
+	word-spacing: 5px;
+}
+.about-text{
+	text-align: center;
+}
+.text-bar p{
+	margin-bottom: 0px;
+}
+/*.image-about img{
+border-radius: 50%;
+background-color: #fff;
+padding: 5px;
+}
+
+
+/*Skill bar*/
+.skillbar {
+	position: relative;
+	display: block;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.horizontal-line:before {
+	background: #eee;
+	content: "";
+	height: 3px;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+.horizontal-line {
+	height: 3px;
+	width: 0px;
+	background: #5DBCD2;
+	-webkit-transition-property: width, background-color;
+	transition-property: width, background-color;
+}
+
+.skill-title {
+	text-transform: uppercase;
+	display: inline-block;
+
+}
+
+
+.skill-percentage {
+	float: right;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+/*####################-Work Sections-####################*/
+hr{
+	border-color: #e74c3c;
+	background-color: #e74c3c;
+	margin-top:30px;
+	margin-bottom: 60px;
+}
+.about-me-img {
+	height: 280px;
+	width:auto;
+	border-radius: 25px;
+}
+#icons{
+	padding-top:10px;
+	width:32px;
+	height:32px;
+}
+
+.ac-wrapper {
+	width: 100%;
+	position: relative;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	perspective: 1000px;
+	-webkit-perspective-origin: 50% 25%;
+	-moz-perspective-origin: 50% 25%;
+	perspective-origin: 50% 25%;
+}
+
+.ac-wrapper h2 {
+	top: 20%;
+	width: 50%;
+	position: absolute;
+	font-weight: 300;
+	font-size: 4em;
+	text-align: right;
+	padding: 0 180px 0 50px;
+}
+
+.ac-wrapper h2 span {
+	display: block;
+	font-size: 60%;
+	color: #c0c0c0;
+}
+
+.ac-device {
+	background: url(../images/android.png) no-repeat;
+	width: 288px;
+	height: 611px;
+	margin: 0 auto;
+	position: relative;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.ac-device a {
+	height: 440px;
+	width: 249px;
+	display: inline-block;
+	position: relative;
+	overflow: hidden;
+	margin: 85px 0 0 20px;
+}
+
+.ac-device a img {
+	display: block;
+	position: absolute;
+}
+
+.ac-device h3 {
+	position: absolute;
+	font-size: 2.3em;
+	left: 100%;
+	width: 100%;
+	top: 50%;
+	margin-left: 30px;
+	font-weight: 300;
+	color: white;
+}
+
+.ac-device nav {
+	position: absolute;
+	bottom: 1em;
+	left: 100%;
+	margin-left: 2em;
+	width: 100%;
+}
+
+.ac-device nav span {
+	border-radius: 10px;
+	display: block;
+	font-size: 2.8em;
+	font-weight: 300;
+	cursor: pointer;
+	background: #c0c0c0  ;
+	line-height: 0.9;
+	padding: 0 0.08em;
+	margin: 2px;
+	float: left;
+	width: 36px;
+	text-align: center;
+}
+
+.ac-grid {
+	position: absolute;
+	width: 620px;
+	left: 50%;
+	margin-left: -310px;
+	height: 100%;
+	z-index: 1000;
+	top: 0;
+	opacity: 0;
+	pointer-events: none;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	-webkit-transform: translateZ(-350px);
+	-moz-transform: translateZ(-350px);
+	transform: translateZ(-350px);
+}
+
+.ac-grid a {
+	width: 145px;
+	display: block;
+	position: relative;
+	float: left;
+	margin: 10px 5px;
+	cursor: pointer;
+}
+
+.ac-grid a img {
+	display: block;
+	width: 100%;
+}
+
+.ac-grid a span {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	top: 0;
+	text-transform: uppercase;
+	padding: 3em 1em 0;
+	z-index: 100;
+	color: #ddd;
+	background: rgba(0,0,0,0.4);
+	font-weight: 700;
+	opacity: 0;
+	-webkit-transform: translateY(-5px);
+	-moz-transform: translateY(-5px);
+	transform: translateY(-5px);
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.ac-grid a:hover span {
+	opacity: 1;
+	-webkit-transform: translateY(0);
+	-moz-transform: translateY(0);
+	transform: translateY(0);
+}
+
+.ac-wrapper.ac-gridview .ac-device {
+	-webkit-transform: translateZ(-350px);
+	-moz-transform: translateZ(-350px);
+	transform: translateZ(-350px);
+	opacity: .6;
+}
+
+.ac-wrapper.ac-gridview .ac-grid {
+	-webkit-transform: translateZ(0px);
+	-moz-transform: translateZ(0px);
+	transform: translateZ(0px);
+	opacity: 1;
+	pointer-events: auto;
+}
+/*####################-Footer Sections-####################*/
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	/* Margin bottom by footer height */
+	margin-bottom: 60px;
+}
+.footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	/* Set the fixed height of the footer here */
+	height: 26px;
+	background-color: #9f575c;
+}
+.jmsa {
+	font-weight: 400;
+	font-size:13px;
+}
+/*####################-Media Queries-####################*/
+@media screen and (max-width: 63.875em) {
+	.ac-wrapper {
+		font-size: 60%;
+		width: 100%;
+		padding: 0 20px;
+	}
+
+	.ac-device {
+		margin-top: 120px;
+		width: 100%;
+	}
+
+	.ac-device h3 {
+		width: 50%;
+		left: 290px;
+	}
+
+	.ac-wrapper h2 {
+		left: 308px;
+		padding: 0;
+		text-align: left;
+		margin-left: 30px;
+	}
+
+	.ac-device nav {
+		left: 280px;
+		font-size: 2em;
+	}
+	p{
+		font-size:1.1em;
+	}
+	h1 {
+
+		font-size: 2.9em;
+
+	}
+}
+
+@media screen and (max-width: 39.8125em) {
+	.ac-grid {
+		width: 90%;
+		left: 5%;
+		margin-left: 0;
+		padding-top: 150px;
+	}
+
+	.ac-grid a {
+		width: 22%;
+	}
+	p{
+		font-size:1em;
+	}
+	h1 {
+
+		font-size: 2.5em;
+
+	}
+}
+
+
+@media screen and (max-width: 35.6875em) {
+	.ac-wrapper {
+		padding: 0 20px 100px;
+	}
+
+	.ac-wrapper h2 {
+		width: 100%;
+		text-align: center;
+		margin: 0 0 1em;
+		top: 0;
+		left: auto;
+		position: relative;
+	}
+
+	.ac-device {
+		margin: 0 auto;
+		width: 288px;
+	}
+
+	.ac-device h3 {
+		position: relative;
+		margin: 0;
+		left: auto;
+		top: auto;
+		width: 100%;
+		padding-top: 100px;
+		display: block;
+		text-align: center;
+	}
+
+	.ac-device nav {
+		position: relative;
+		padding-top: 20px;
+		text-align: center;
+		bottom: auto;
+		margin: 0;
+		left: auto;
+	}
+}
+/*####################-Contact Section-####################*/
+h3 .fa{
+	color:#5DBCD2;
+	margin-right:10px;
+}
+h3 a{
+	color: white;
+}
+label{
+	font-weight: normal;
+}
+label p{
+	color: #FFBB00;
+}
+.contact-ico .fa{
+	padding-left: 20px;
+	padding-right:20px;
+	color:#5DBCD2;
+}
+.well {
+	background-color: transparent;
+	border-radius: 10px;
+	border:1px solid white;
+}
+.contact-info .fa h3{
+	margin-top:50px;
+}
+.form-control {
+	border:1px solid white;
+	background-color: transparent;
+	color:white;
+}
+
+.form-group label {
+	color: #FFBB00;
+}
+.form-control option {
+	color: #FFBB00;
+	background-color:  #1b1f25;
+}
+.btn-primary {
+	background-color: #c0c0c0;
+	color: black;
+}
